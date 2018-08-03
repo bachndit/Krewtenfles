@@ -12,7 +12,11 @@
 		3B607EE608EB9831CF22992894B5E458 /* Krowtenfles-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BB4077259F670D847AEAD715701DC4 /* Krowtenfles-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84ECFE45C476CAF16F46C30263CAC0C5 /* Pods-Krowtenfles_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F127C4B9DB74139EED006773AAE9A93 /* Pods-Krowtenfles_Tests-dummy.m */; };
 		C3F6D4AA6BDA4DB70B72EAB2BA7A1186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F088B8FA2569AF947B8733907ECDBF9C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A45A707C46A5B115730323DA23E7A /* ReplaceMe.swift */; };
+		FB45C91C2114AF8100B8DB0D /* RequestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45C9172114AF8000B8DB0D /* RequestConfiguration.swift */; };
+		FB45C91D2114AF8100B8DB0D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45C9182114AF8100B8DB0D /* NetworkError.swift */; };
+		FB45C91E2114AF8100B8DB0D /* Requestable+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45C9192114AF8100B8DB0D /* Requestable+Extention.swift */; };
+		FB45C91F2114AF8100B8DB0D /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45C91A2114AF8100B8DB0D /* Requestable.swift */; };
+		FB45C9202114AF8100B8DB0D /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45C91B2114AF8100B8DB0D /* NetworkSession.swift */; };
 		FCA5B6C1F1259F6B002034196633690C /* Krowtenfles-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC1EB6CC31A045F4693F4F8D88232B /* Krowtenfles-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,27 +33,31 @@
 /* Begin PBXFileReference section */
 		22FFB140EA001928EA5E6AA1784F5CDF /* Pods-Krowtenfles_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Krowtenfles_Tests-resources.sh"; sourceTree = "<group>"; };
 		23DF5B1F165E79ADDDB2D2341AC9240E /* Pods-Krowtenfles_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Krowtenfles_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		249C2A64F557709EC72DE0E9B5009BE3 /* Krowtenfles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Krowtenfles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		249C2A64F557709EC72DE0E9B5009BE3 /* Krowtenfles.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Krowtenfles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		25B0F1FB6C252A235E443D3E6E070052 /* Pods-Krowtenfles_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Krowtenfles_Tests.modulemap"; sourceTree = "<group>"; };
 		3162653102CF8B3ADCE47661ABDBB2BF /* Pods-Krowtenfles_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Krowtenfles_Tests-umbrella.h"; sourceTree = "<group>"; };
 		34AE4F861CADAACC9A732A8252B731C2 /* Pods-Krowtenfles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Krowtenfles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34E4553CE78D23BFBF6FFFD9C373508C /* Krowtenfles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Krowtenfles.framework; path = Krowtenfles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E4553CE78D23BFBF6FFFD9C373508C /* Krowtenfles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Krowtenfles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F91A09FFF31DA0162C0E16C7125CB2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43E8FC1C45F7E71D8199301FF43A9E76 /* Pods-Krowtenfles_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Krowtenfles_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		462A45A707C46A5B115730323DA23E7A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Krowtenfles/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		5602F957372F2D467093A2CB478A0147 /* Pods-Krowtenfles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Krowtenfles_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5EBC1EB6CC31A045F4693F4F8D88232B /* Krowtenfles-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Krowtenfles-dummy.m"; sourceTree = "<group>"; };
 		73FCE60B9FCD297855E72ED347239E85 /* Krowtenfles.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Krowtenfles.modulemap; sourceTree = "<group>"; };
-		7C16EFAD96B7049558C8923BC948CD80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C16EFAD96B7049558C8923BC948CD80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		81BF745C5CC019E217760B99A248D078 /* Pods-Krowtenfles_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Krowtenfles_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		89BB4077259F670D847AEAD715701DC4 /* Krowtenfles-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Krowtenfles-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F127C4B9DB74139EED006773AAE9A93 /* Pods-Krowtenfles_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Krowtenfles_Tests-dummy.m"; sourceTree = "<group>"; };
 		A28AEB986F182A45118ADB56C496E09A /* Krowtenfles.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Krowtenfles.xcconfig; sourceTree = "<group>"; };
-		B50D2F1DED533ADCAE1FF1AB88420F50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BA6139C799F47F93837F1CE70D36222A /* Pods_Krowtenfles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Krowtenfles_Tests.framework; path = "Pods-Krowtenfles_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50D2F1DED533ADCAE1FF1AB88420F50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA6139C799F47F93837F1CE70D36222A /* Pods_Krowtenfles_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Krowtenfles_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41C8CE882F6E3822CE812401227F4F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB45C9172114AF8000B8DB0D /* RequestConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestConfiguration.swift; path = Krowtenfles/Classes/RequestConfiguration.swift; sourceTree = "<group>"; };
+		FB45C9182114AF8100B8DB0D /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkError.swift; path = Krowtenfles/Classes/NetworkError.swift; sourceTree = "<group>"; };
+		FB45C9192114AF8100B8DB0D /* Requestable+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Requestable+Extention.swift"; path = "Krowtenfles/Classes/Requestable+Extention.swift"; sourceTree = "<group>"; };
+		FB45C91A2114AF8100B8DB0D /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = Krowtenfles/Classes/Requestable.swift; sourceTree = "<group>"; };
+		FB45C91B2114AF8100B8DB0D /* NetworkSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkSession.swift; path = Krowtenfles/Classes/NetworkSession.swift; sourceTree = "<group>"; };
 		FD25D167C6968ADFC1BDFDCCF74448EB /* Krowtenfles-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Krowtenfles-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +164,11 @@
 		D7AB87CBE15DD94D30794381971028BC /* Krowtenfles */ = {
 			isa = PBXGroup;
 			children = (
-				462A45A707C46A5B115730323DA23E7A /* ReplaceMe.swift */,
+				FB45C9182114AF8100B8DB0D /* NetworkError.swift */,
+				FB45C91B2114AF8100B8DB0D /* NetworkSession.swift */,
+				FB45C91A2114AF8100B8DB0D /* Requestable.swift */,
+				FB45C9192114AF8100B8DB0D /* Requestable+Extention.swift */,
+				FB45C9172114AF8000B8DB0D /* RequestConfiguration.swift */,
 				B71F158A4690E7AC56A06EA09C07AA50 /* Pod */,
 				E30E10BCE2544BA87B852BF639600932 /* Support Files */,
 			);
@@ -243,6 +255,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					69E45F33418F82FE243099CE34A6E6DC = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -267,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB45C91F2114AF8100B8DB0D /* Requestable.swift in Sources */,
+				FB45C91E2114AF8100B8DB0D /* Requestable+Extention.swift in Sources */,
+				FB45C91D2114AF8100B8DB0D /* NetworkError.swift in Sources */,
+				FB45C9202114AF8100B8DB0D /* NetworkSession.swift in Sources */,
+				FB45C91C2114AF8100B8DB0D /* RequestConfiguration.swift in Sources */,
 				FCA5B6C1F1259F6B002034196633690C /* Krowtenfles-dummy.m in Sources */,
-				F088B8FA2569AF947B8733907ECDBF9C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A28AEB986F182A45118ADB56C496E09A /* Krowtenfles.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A28AEB986F182A45118ADB56C496E09A /* Krowtenfles.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
