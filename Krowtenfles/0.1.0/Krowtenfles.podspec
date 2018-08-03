@@ -17,16 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.summary 		 = 'Krowtenfles -> selfNetwork'
+  s.description      = 'This is a protocol, help to fetchData easy'
 
   s.homepage         = 'https://github.com/bachndit/Krowtenfles'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bachndit' => 'bachndit@gmail.com' }
   s.source           = { :git => 'https://github.com/bachndit/Krowtenfles.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/bachvq'
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Alamofire', '~> 4.7.3'
 end
