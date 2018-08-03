@@ -1,0 +1,16 @@
+PODS:
+  - Krowtenfles (0.1.0)
+
+DEPENDENCIES:
+  - Krowtenfles (from `../`)
+
+EXTERNAL SOURCES:
+  Krowtenfles:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Krowtenfles: 91ad065456591f3bbb24a5e5e189c47b05ae8a5c
+
+PODFILE CHECKSUM: 7b517bc93df85edb87ec6d9b66080ff52f8f1bfe
+
+COCOAPODS: 1.5.3

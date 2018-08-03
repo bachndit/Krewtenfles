@@ -16,10 +16,10 @@
 		607FACE51AFB9204008FA782 /* Krowtenfles_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Krowtenfles_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CB2F6067B11FD7D6727E0FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8C247A390EF9A27EA285BA47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7CB2F6067B11FD7D6727E0FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8C247A390EF9A27EA285BA47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA4C66C3A4E58C12043A54BD /* Pods-Krowtenfles_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krowtenfles_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Krowtenfles_Tests/Pods-Krowtenfles_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB9717A04E6F656766AB77EC /* Krowtenfles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Krowtenfles.podspec; path = ../Krowtenfles.podspec; sourceTree = "<group>"; };
+		AB9717A04E6F656766AB77EC /* Krowtenfles.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Krowtenfles.podspec; path = ../Krowtenfles.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C8B81285B23488631F00FF44 /* Pods-Krowtenfles_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Krowtenfles_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Krowtenfles_Tests/Pods-Krowtenfles_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

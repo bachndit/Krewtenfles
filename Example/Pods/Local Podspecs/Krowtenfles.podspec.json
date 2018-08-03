@@ -1,0 +1,22 @@
+{
+  "name": "Krowtenfles",
+  "version": "0.1.0",
+  "summary": "A short description of Krowtenfles.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bachndit/Krowtenfles",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bachndit": "bachndit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bachndit/Krowtenfles.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Krowtenfles/Classes/**/*"
+}

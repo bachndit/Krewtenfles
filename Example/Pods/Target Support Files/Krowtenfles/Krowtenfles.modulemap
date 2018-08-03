@@ -1,0 +1,6 @@
+framework module Krowtenfles {
+  umbrella header "Krowtenfles-umbrella.h"
+
+  export *
+  module * { export * }
+}
