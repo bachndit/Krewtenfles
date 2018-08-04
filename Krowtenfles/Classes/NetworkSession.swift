@@ -9,13 +9,13 @@
 import Foundation
 import Alamofire
 
-typealias CompletionHandler<T> = ((T) -> Void)
+public typealias CompletionHandler<T> = ((T) -> Void)
 
-protocol NetworkDispatcherRequest {
-    func requestDispatch(request: RequestConfiguration, onSuccess: @escaping CompletionHandler<Data>, onFailure: @escaping CompletionHandler<Error>)
+public protocol NetworkDispatcherRequest {
+   func requestDispatch(request: RequestConfiguration, onSuccess: @escaping CompletionHandler<Data>, onFailure: @escaping CompletionHandler<Error>)
 }
 
-protocol NetWorkDispatcherDownload {
+public protocol NetWorkDispatcherDownload {
     func downloadDispatch(
         request: RequestConfiguration,
         onProgressing: @escaping CompletionHandler<Float>,
@@ -24,10 +24,10 @@ protocol NetWorkDispatcherDownload {
     )
 }
 
-class NetworkSession: NetworkDispatcherRequest {
-    static let shared = NetworkSession()
+public class NetworkSession: NetworkDispatcherRequest {
+    public static let shared = NetworkSession()
     
-    func requestDispatch(request: RequestConfiguration, onSuccess: @escaping (Data) -> Void, onFailure: @escaping (Error) -> Void) {
+    public func requestDispatch(request: RequestConfiguration, onSuccess: @escaping (Data) -> Void, onFailure: @escaping (Error) -> Void) {
         if request.path.isEmpty {
             onFailure(NetworkError.invalidURL)
             return

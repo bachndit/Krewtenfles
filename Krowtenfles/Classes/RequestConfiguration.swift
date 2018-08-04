@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-struct RequestConfiguration {
+public struct RequestConfiguration {
     let path: String
     let method: HTTPMethod
     let params: [String: Any]?

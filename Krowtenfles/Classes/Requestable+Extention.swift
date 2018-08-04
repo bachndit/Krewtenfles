@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-extension Requestable {
+public extension Requestable {
     
     var method: HTTPMethod {
         get {
