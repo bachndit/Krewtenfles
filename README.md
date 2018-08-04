@@ -1,6 +1,5 @@
 # Krowtenfles
 
-[![CI Status](https://img.shields.io/travis/bachndit/Krowtenfles.svg?style=flat)](https://travis-ci.org/bachndit/Krowtenfles)
 [![Version](https://img.shields.io/cocoapods/v/Krowtenfles.svg?style=flat)](https://cocoapods.org/pods/Krowtenfles)
 [![License](https://img.shields.io/cocoapods/l/Krowtenfles.svg?style=flat)](https://cocoapods.org/pods/Krowtenfles)
 [![Platform](https://img.shields.io/cocoapods/p/Krowtenfles.svg?style=flat)](https://cocoapods.org/pods/Krowtenfles)
